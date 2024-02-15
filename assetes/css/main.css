@@ -1,0 +1,153 @@
+/* Default Settings  */
+
+/* Font Settings  */
+
+h1 {
+    font-size: 54px;
+    line-height: 64px;
+}
+
+h2 {
+    font-size: 48px;
+    line-height: 58px;
+}
+
+h3 {
+    font-size: 42px;
+    line-height: 52px;
+}
+
+h4 {
+    font-size: 32px;
+    line-height: 42px;
+}
+
+h5 {
+    font-size: 24px;
+    line-height: 34px;
+}
+
+h6 {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#service_button {
+    display: flex;
+    justify-content: center;
+}
+
+#main_button {
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+}
+
+
+/* Color Settings  */
+
+:root {
+    --primary-color: #5CAD2F;
+    --secondary-color: #0F172A;
+    --primary-light-color: #EFF5E5;
+    --light-color: #E5F9F3;
+    --p-color: #E5F9F3;
+}
+
+/* Design Settings  */
+
+/* Nav Settings  */
+.my_nav {
+    padding-left: 0 !important;
+}
+
+/* Hero Settings */
+
+.hero-area {
+    background-image: url(../img/hero-bgm.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    height: 100vh;
+}
+
+.hero-area-overlay {
+    background-color: black;
+    opacity: 90%;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+
+
+}
+
+/* Banner Text  */
+.display {
+    font-style: 64px;
+    line-height: 74px;
+}
+
+
+
+img {
+    max-width: 100%;
+}
+
+
+
+
+/* Services Section  */
+.service_main {
+    background-image: url(../img/service-section-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    margin-top: 200px;
+}
+
+.single_service {
+    position: relative;
+    z-index: 1;
+    padding: 40px;
+    margin: 40px;
+    width: 300px;
+    margin-top: 40px;
+}
+
+.service_card_left {
+    background-image: url(../img/rectangle-left.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    top: -80px;
+    left: -100px;
+    z-index: -1;
+}
+
+.service_card_right {
+    background-image: url(../img/rectangle-right.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    top: -90px;
+    right: -100px;
+    z-index: -1;
+}

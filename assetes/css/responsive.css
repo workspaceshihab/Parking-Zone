@@ -1,0 +1,39 @@
+@media only screen and (min-width: 300px) {
+    .service_main {
+        display: none;
+    }
+
+    .single_service {
+        margin-left: 0px;
+        margin-top: 0px;
+        padding-right: 55px;
+        margin-left: 20px;
+    }
+
+    .service_card_left {
+        left: -100px;
+    }
+
+    .service_card_right {
+        left: -100px;
+    }
+}
+
+@media only screen and (min-width: 460px) {
+    .service_main {
+        display: none;
+    }
+
+    .single_service {
+        margin-left: 0px;
+        margin-top: 0px;
+        padding-right: 55px;
+        margin-left: 20px;
+    }
+}
+
+/* @media only screen and (max-width: 1024px) {
+    .
+}
+
+1200  */
