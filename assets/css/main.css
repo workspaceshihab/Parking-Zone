@@ -56,6 +56,10 @@ a {
     border-radius: 5px;
 }
 
+/* .section {
+    height: 100vh;
+} */
+
 
 /* Color Settings  */
 
@@ -68,6 +72,8 @@ a {
 }
 
 /* Design Settings  */
+
+
 
 /* Nav Settings  */
 .my_nav {
@@ -151,3 +157,5 @@ img {
     right: -100px;
     z-index: -1;
 }
+
+/* Parking Place Section */
