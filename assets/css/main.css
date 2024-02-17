@@ -41,7 +41,9 @@ a {
     text-decoration: none;
 }
 
-#service_button {
+
+
+#section_button {
     display: flex;
     justify-content: center;
 }
@@ -159,3 +161,9 @@ img {
 }
 
 /* Parking Place Section */
+
+.counter_section {
+    background-color: var(--secondary-color);
+    padding: 40px;
+    border-radius: 2px 70px 2px 70px;
+}
