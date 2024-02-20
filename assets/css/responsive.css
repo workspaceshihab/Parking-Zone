@@ -1,3 +1,18 @@
+@media only screen and (max-width: 480px) {
+    .hero-area {
+        /* height: 1000px; */
+    }
+
+    .hero-area-overlay {
+
+        /* height: 1000px; */
+
+    }
+}
+
+
+
+
 /* @media only screen and (min-width: 300px) {
     .service_main {
         display: none;
