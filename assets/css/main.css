@@ -56,9 +56,29 @@ a {
     font-size: 18px;
     transition: background-color 0.3s ease;
     border-radius: 5px;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
+.highlight {
+    color: var(--primary-color);
+}
 
+img {
+    max-width: 100%;
+}
+
+input[type=text]:focus {
+    border: 3px solid var(--primary-color) !important;
+    outline: none;
+}
+
+.display {
+    font-style: 64px;
+    font-weight: 700;
+}
 
 /* Color Settings  */
 
@@ -75,9 +95,28 @@ a {
 
 
 /* Nav Settings  */
-.my_nav {
-    padding-left: 0 !important;
+.collapse.navbar-collapse {
+    gap: 25px;
 }
+
+.nav-item a {
+    color: var(--light-color);
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.nav-item a:hover {
+    color: var(--primary-color);
+
+}
+
+.nav_pages {
+    padding-top: 25px;
+}
+
 
 /* Hero Settings */
 
@@ -87,31 +126,69 @@ a {
     background-size: cover;
     background-position: top;
     position: relative;
-    height: 100vh;
+    height: 700px;
 }
 
 .hero-area-overlay {
     background-color: black;
     opacity: 90%;
-    height: 100vh;
+    height: 700px;
     width: 100%;
     position: absolute;
-
-
 }
 
 /* Banner Text  */
-.display {
-    font-style: 64px;
-    line-height: 74px;
+.banner_logo {
+    padding: 10px 0;
 }
 
-
-
-img {
-    max-width: 100%;
+.banner_area {
+    padding: 100px 0;
 }
 
+.banner_text {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--primary-light-color);
+    text-transform: capitalize;
+}
+
+.banner_text h1 {
+    padding: 20px 0;
+    line-height: 54px;
+}
+
+.banner_search {
+    font-size: 18px;
+    line-height: 22px;
+    padding: 10px 20px;
+    padding-right: 80px;
+    border-radius: 5px;
+    border: 3px solid var(--p-color) !important;
+}
+
+.banner_search {
+    margin-right: 4px;
+}
+
+.places ul li {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.places ul li a {
+    color: var(--secondary-color);
+    background-color: #fff;
+    padding: 10px 12px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.places_list {
+    padding-left: 0 !important;
+    gap: 12px;
+}
 
 
 

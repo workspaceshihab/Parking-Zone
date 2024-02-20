@@ -11,30 +11,38 @@
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css">
+
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <!-- Hero Area Start  -->
     <div class="hero-area section">
         <div class="hero-area-overlay"></div>
-        <div class="header-area">
+        <header class="header-area">
             <div class="container">
                 <!-- Nav Start  -->
                 <nav class="navbar navbar-expand-lg p-0">
 
                     <!-- Logo Area  -->
-                    <a class="navbar-brand" href="#">
-                        <img src="./assets/img/nav-logo.png" alt>
-                    </a>
-                    <!-- Responsive Button Area -->
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+                    <div class="logo_area">
+                        <a class="navbar-brand" href="#">
+                            <img src="./assets/img/nav-logo.png" alt>
+                        </a>
+                        <!-- Responsive Button Area -->
+                        <button class="navbar-toggler justify-content-end" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
                     <!-- Pages Area  -->
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <div class="nav_pages collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
@@ -60,7 +68,7 @@
                 </nav>
                 <!-- Nav End  -->
             </div>
-        </div>
+        </header>
         <div class="container">
             <!-- Banner Start -->
             <div class="banner_area">
@@ -72,15 +80,16 @@
                                 <img src="./assets/img/parking 1.png" alt>
                             </div>
                             <div class="banner_text">
-                                <h1>Easy way to find Near Parking
+                                <h1 class="display">Easy way to <span class="highlight">find</span> Near <span
+                                        class="highlight">Parking</span>
                                     Zone.</h1>
                                 <form action="#">
-                                    <input type="text" placeholder="Search Near Parking Zone....">
-                                    <button type="submit">Search</button>
+                                    <input class="banner_search" type="text" placeholder="Search Near Parking Zone....">
+                                    <button id="main_button" type="submit"><i
+                                            class="fa-solid fa-magnifying-glass"></i></button>
                                 </form>
                                 <div class="places">
-                                    <h3>Popular Places</h3>
-                                    <ul>
+                                    <ul class="d-flex places_list">
                                         <li><a href="#">Dhaka</a></li>
                                         <li><a href="#">Chittagong</a></li>
                                         <li><a href="#">Sylhet</a></li>
